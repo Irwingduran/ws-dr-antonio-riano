@@ -132,6 +132,7 @@ section .content p {
 .logo{
     text-decoration-line: none;
     font-size: 6rem;
+    color: white;
 }
 /* CUSTOM COLORS */
 #navigation .logo path[fill*="#00856F"], /* busca o fill que possui essa cor específica */
