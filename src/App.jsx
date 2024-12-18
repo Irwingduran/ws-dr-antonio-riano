@@ -10,6 +10,7 @@ import LocationMap from './components/LocationMap'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Banner from './components/Banner'
+import Reviews from './components/Reviews'
 function App() {
   
   return (
@@ -26,6 +27,7 @@ function App() {
       <Banner/>
       <VideoSection/>
       <LocationMap/>
+      <Reviews/>
       <Contact/>
       <Footer/>
     </div>
