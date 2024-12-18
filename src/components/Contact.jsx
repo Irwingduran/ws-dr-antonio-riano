@@ -76,7 +76,7 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="w-full py-3 px-6 bg-indigo-600 text-white font-medium rounded-lg shadow hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-300"
+                className="w-full py-3 px-6 bg-teal-700 text-white font-medium rounded-lg shadow hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-300"
               >
                 Enviar mensaje
               </button>
@@ -84,7 +84,7 @@ const Contact = () => {
           </div>
 
           {/* Información de contacto */}
-          <div className="flex flex-col justify-center bg-indigo-50 rounded-lg p-8 shadow-lg">
+          <div className="flex flex-col justify-center bg-teal-50 rounded-lg p-8 shadow-lg">
             <h3 className="text-2xl font-bold text-gray-800 mb-6">
               Información de contacto
             </h3>
