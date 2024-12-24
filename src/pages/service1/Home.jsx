@@ -4,7 +4,7 @@ import Footer from "../../components/Footer";
 
 const Home = () => {
   return (
-    <div className="container">
+    <div>
       <Navbar />
       <section className="bg-gray-50 py-24">
         <div className="container mx-auto px-6 lg:px-12">
