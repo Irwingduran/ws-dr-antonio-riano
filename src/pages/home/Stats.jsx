@@ -2,8 +2,8 @@ import React from 'react'
 
 const Stats = () => {
     const stats = [
-        { number: '+3.500', label: 'Pacientes atendidos' },
-        { number: '+1500', label: 'Cirugías' },
+        { number: '+3,500', label: 'Pacientes atendidos' },
+        { number: '+1,500', label: 'Cirugías' },
         { number: '+10', label: 'Años de experiencia' }
       ];
       

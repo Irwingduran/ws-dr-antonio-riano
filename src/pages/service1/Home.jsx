@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <section className="bg-gray-50 py-24">
+      <section className="bg-gray-50 py-24 w-full">
         <div className="container mx-auto px-6 lg:px-12">
           {/* Encabezado */}
           <header className="text-center mb-12">
@@ -99,6 +99,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+
       <footer>
         <Footer />
       </footer>

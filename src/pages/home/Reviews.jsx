@@ -9,7 +9,7 @@ const reviews = [
       "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?crop=faces&fit=crop&w=200&h=200&q=80",
   },
   {
-    name: "Juan Pérez",
+    name: "Rocio Pérez",
     review:
       "Recibí una atención personalizada y un seguimiento impecable. Recomiendo ampliamente sus servicios.",
     image:

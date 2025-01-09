@@ -43,9 +43,11 @@ const VideoSection = () => {
 
         {/* Llamado a la acción */}
         <div className="text-center mt-12">
+          <a href="/#contact">
           <button className="px-8 py-3 bg-[#7B169C] text-white font-semibold rounded-lg shadow-md hover:bg-purple-500 transition-colors">
             Contáctanos
           </button>
+          </a>
         </div>
       </div>
     </section>

@@ -10,11 +10,11 @@ const About = () => {
             Sobre mí
           </h4>
           <h2 className="text-3xl lg:text-4xl font-extrabold text-gray-800 mb-6">
-            El Dr. Jesus Antonio Riaño Rodriguez...
+            El Dr. Jesús Antonio Riaño Rodriguez...
           </h2>
           <p className="text-gray-600 leading-relaxed mb-6">
-          El Dr. Jesus Antonio Riaño Rodriguez es egresado del Centro Médico Nacional de Occidente IMSS y está certificado por el Consejo Mexicano de Cirugía Plástica, Estética y Reconstructiva. <br />
-          Pertenece al American Society of Plastic Surgeons y asistente a múltiples cursos de cirugía estética, cirugía facial, estética glútea, cirugía postbariatrica (pérdida masiva de peso), microcirugía y cirugía reconstructiva.
+          El Dr. Jesús Antonio Riaño Rodriguez es egresado del Centro Médico Nacional de Occidente IMSS y está certificado por el Consejo Mexicano de Cirugía Plástica, Estética y Reconstructiva. <br />
+          Pertenece al American Society of Plastic Surgeons y ha participado en múltiples cursos de cirugía estética, cirugía facial, estética glútea, cirugía postbariatrica (pérdida masiva de peso), microcirugía y cirugía reconstructiva.
           </p>
           <p className="text-gray-600 leading-relaxed mb-6">
           Es un Cirujano Plástico con una amplia experiencia y gran trayectoria en cirugía plástica estética y reconstructiva en el estado de Puebla. <br />

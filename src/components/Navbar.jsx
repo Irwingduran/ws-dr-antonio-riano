@@ -12,14 +12,13 @@ const Navbar = () => {
   return (
     <nav 
       className={`fixed top-0 w-full z-50 transition-colors duration-300 ${
-        scrolled ? 'bg-[#7B169C]' : 'bg-transparent'
+        scrolled ? 'bg-[#7B169C]' : 'bg-white'
       }`}
     >
       <div className="wrapper max-w-6xl mx-auto px-1 flex items-center justify-between h-18">
         <a href="#home" className="text-xl md:text-base xl:text-xl font-semibold text-[#7B169C]">
           <img src="/logo.png" width={200} alt="" />
         </a>
-
         {/* Menú para desktop */}
         <div className="hidden md:flex items-center space-x-8 px-8">
           <ul className="flex space-x-6 px-40">
@@ -35,7 +34,6 @@ const Navbar = () => {
             Agendar Cita
           </a>
         </div>
-
         {/* Botón de menú móvil */}
         <div className="md:hidden">
           <button 
@@ -45,7 +43,6 @@ const Navbar = () => {
             <Menu size={40} />
           </button>
         </div>
-
         {/* Menú móvil */}
         {menuExpanded && (
           <div className="fixed inset-0 bg-[#7B169C] z-50 md:hidden">
@@ -57,13 +54,11 @@ const Navbar = () => {
                 <X size={40} />
               </button>
             </div>
-
             <ul className="flex flex-col items-center space-y-8 mt-12">
               <li><a href="#home" onClick={toggleMenu} className="text-white text-2xl">Inicio</a></li>
               <li><a href="#services" onClick={toggleMenu} className="text-white text-2xl">Servicio</a></li>
               <li><a href="#about" onClick={toggleMenu} className="text-white text-2xl">Conóceme</a></li>
             </ul>
-
             <div className="flex justify-center mt-12">
               <a 
                 href="#contact" 
