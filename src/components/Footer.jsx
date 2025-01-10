@@ -45,9 +45,9 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-bold text-white mb-4">Contáctanos</h4>
             <p className="text-white">Torres Médicas Angelópolis piso 8 Consultorio 829, Puebla Pue.</p>
-            <p className="text-white mt-2">+52 222 217 9680</p>
-            <p className="text-white mt-2">+52 222 168 0861</p>
-            <p className="text-white mt-2">dr.riano@gmail.com</p>
+            <a href="tel:2222179680"><p className="text-white mt-2">+52 222 217 9680</p></a>
+           <a href="tel:2221680861"> <p className="text-white mt-2">+52 222 168 0861</p></a>
+            <a href="mailto:dr.riano@gmail.com"><p className="text-white mt-2">dr.riano@gmail.com</p></a>
           </div>
         </div>
 

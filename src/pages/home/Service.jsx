@@ -5,21 +5,21 @@ const Service = () => {
         {
           title: "Liposucción",
           description:
-            "Descripción",
+            "Descubre más detalles sobre este servcio...",
           image: "/img/service1.jpeg",
           link: "/Service",
         },
         {
           title: "Lipoescultura",
           description:
-            "Descripción",
+            "Descubre más detalles sobre este servcio...",
           image: "/img/service2.jpeg",
            link: "/Service",
         },
         {
           title: "Abdominoplastia",
           description:
-            "Descripción",
+            "Descubre más detalles sobre este servcio...",
           image: "/img/service3.jpeg",
            link: "/Service",
         },

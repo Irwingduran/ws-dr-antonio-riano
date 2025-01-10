@@ -91,10 +91,10 @@ const Home = () => {
               Da el primer paso hacia el cambio que siempre has deseado.
             </p>
             <a
-              href="/contact"
+              href="https://api.whatsapp.com/send/?phone=5212222179680&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0"
               className="bg-[#7B169C] text-white px-6 py-3 rounded-lg shadow-md hover:bg-[#5A0D7A] transition-colors"
             >
-              Solicitar Consulta
+              Solicitar Cita
             </a>
           </div>
         </div>

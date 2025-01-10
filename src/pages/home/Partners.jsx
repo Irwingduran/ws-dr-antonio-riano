@@ -3,13 +3,26 @@ import Slider from "react-slick";
 
 const Partners = () => {
   const partners = [
-    "BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA",
-    "INSTITUTO MEXICANO DEL SEGURO SOCIAL TABASCO",
-    "INSTITUTO MEXICANO DEL SEGURO SOCIAL PUEBLA",
-    "INSTITUTO MEXICANO DEL SEGURO SOCIAL GUADALAJARA",
-    "UNIVERSIDAD DE GUADALAJARA",
-    "INNOVARE HOSPITAL DE CIRUGIA PLASTICA",
-    "HOSPITAL INFANTIL DE MORELIA",
+    {
+      name: "BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA",
+      logo: "/icon/BUAP.webp"
+    },
+    {
+      name: "INSTITUTO MEXICANO DEL SEGURO SOCIAL TABASCO",
+      logo: "/icon/IMSS.jpg"
+    },
+    {
+      name: "UNIVERSIDAD DE GUADALAJARA",
+      logo: "/icon/UDG.png"
+    },
+    {
+      name: "INNOVARE HOSPITAL DE CIRUGIA PLASTICA",
+      logo: "/icon/innovare.png"
+    },
+    {
+      name: "HOSPITAL INFANTIL DE MORELIA",
+      logo: "/icon/HIMORELIA.jpeg"
+    }
   ];
 
   const settings = {
@@ -48,13 +61,9 @@ const Partners = () => {
         {/* Encabezado */}
         <header className="text-center mb-8">
           <h4 className="text-sm uppercase text-[#90B7BA] font-medium mb-2">
-            Nuestros Socios
+            Mi Trayectoría
           </h4>
-          <h2 className="text-3xl lg:text-4xl font-extrabold text-gray-800">
-            Con quienes trabajamos
-          </h2>
         </header>
-
         {/* Carrusel */}
         <div>
           <Slider {...settings}>
@@ -63,13 +72,12 @@ const Partners = () => {
                 key={index}
                 className="flex justify-center items-center p-4"
               >
-                <div className="bg-white rounded-lg shadow-lg p-6 w-64 h-32 flex justify-center items-center text-center">
-                <img 
-  src="ruta-del-logo.png" 
-  alt={partner} 
-  className="max-w-full max-h-full object-contain"
-/>
-
+                <div className="bg-white rounded-lg shadow-lg p-6 w-64 h-32 flex justify-center items-center">
+                  <img 
+                    src={partner.logo} 
+                    alt={partner.name} 
+                    className="max-w-full max-h-full object-contain"
+                  />
                 </div>
               </div>
             ))}

@@ -97,12 +97,12 @@ const Contact = () => {
               </a>
             </p>
             <p className="text-gray-600 mb-4">
-              <a href="tel:2221680861 ">
+              <a href="tel:2221680861">
               <strong>Teléfono 2:</strong> 2221680861 (Citas)
               </a>
             </p>
             <p className="text-gray-600 mb-4">
-              <a href="malmailto:dr.riano@gmail.com">
+              <a href="mailto:dr.riano@gmail.com">
               <strong>Email:</strong> dr.riano@gmail.com
               </a>
             </p>
