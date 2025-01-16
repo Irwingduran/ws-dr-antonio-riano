@@ -62,7 +62,7 @@ const Navbar = () => {
             <div className="flex justify-center mt-12">
               <a 
                 href="https://api.whatsapp.com/send?phone=5213319450358&text=Hola,%20quisiera%20hacer%20una%20cita%20con%20el%20Dr.%20Jesus%20Antonio%20Ria%c3%b1o%20Rodriguez" 
-                target="_blank
+                target="_blank"
                 onClick={toggleMenu}
                 className="bg-white text-[#7B169C] px-6 py-3  rounded-full text-lg uppercase"
               >
