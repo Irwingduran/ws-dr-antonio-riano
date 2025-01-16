@@ -22,7 +22,7 @@ const Banner = () => {
           enfoque humano. Descubre servicios personalizados y una atención
           médica excepcional.
         </p>
-        <a href="https://api.whatsapp.com/send/?phone=5212222179680&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0">
+        <a href="https://api.whatsapp.com/send/?phone=5212222179680&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0" target="_blank">
         <button
           className="bg-white text-[#7B169C] px-6 py-3 rounded-full shadow-lg font-semibold text-lg hover:bg-purple-100 transition"
           onClick={() => window.location.href = "#contact"}
