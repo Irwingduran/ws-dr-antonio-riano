@@ -29,7 +29,7 @@ const Navbar = () => {
           </ul>
           <a 
             href="https://api.whatsapp.com/send?phone=5213319450358&text=Hola,%20quisiera%20hacer%20una%20cita%20con%20el%20Dr.%20Jesus%20Antonio%20Ria%c3%b1o%20Rodriguez" 
-            className="bg-[#7B169C] text-white px-6 py-2 rounded-full my-6 text-sm uppercase hover:bg-purple-500"
+            className="bg-[#7B169C] text-white px-6 py-2 rounded-full my-6 text-sm uppercase hover:bg-purple-500" target="_blank"
           >
             Agendar Cita
           </a>
@@ -55,13 +55,14 @@ const Navbar = () => {
               </button>
             </div>
             <ul className="flex flex-col items-center space-y-8 mt-12">
-              <li><a href="#home" onClick={toggleMenu} className="text-white text-2xl">Inicio</a></li>
-              <li><a href="#services" onClick={toggleMenu} className="text-white text-2xl">Servicio</a></li>
-              <li><a href="#about" onClick={toggleMenu} className="text-white text-2xl">Conóceme</a></li>
+              <li><a href="/" onClick={toggleMenu} className="text-white text-2xl">Inicio</a></li>
+              <li><a href="/#services" onClick={toggleMenu} className="text-white text-2xl">Servicio</a></li>
+              <li><a href="/#about" onClick={toggleMenu} className="text-white text-2xl">Conóceme</a></li>
             </ul>
             <div className="flex justify-center mt-12">
               <a 
-                href="#contact" 
+                href="https://api.whatsapp.com/send?phone=5213319450358&text=Hola,%20quisiera%20hacer%20una%20cita%20con%20el%20Dr.%20Jesus%20Antonio%20Ria%c3%b1o%20Rodriguez" 
+                target="_blank
                 onClick={toggleMenu}
                 className="bg-white text-[#7B169C] px-6 py-3  rounded-full text-lg uppercase"
               >
