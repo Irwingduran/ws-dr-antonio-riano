@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import ScrollToHash from "../utils/ScrollToHash";
 
 const Navbar = () => {
   const [menuExpanded, setMenuExpanded] = useState(false);
@@ -15,6 +16,7 @@ const Navbar = () => {
         scrolled ? 'bg-[#7B169C]' : 'bg-white'
       }`}
     >
+      <ScrollToHash/>
       <div className="wrapper max-w-6xl mx-auto px-1 flex items-center justify-between h-18">
         <a href="#home" className="text-xl md:text-base xl:text-xl font-semibold text-[#7B169C]">
           <img src="/logo.png" width={200} alt="" />
