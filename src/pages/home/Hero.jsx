@@ -37,7 +37,7 @@ const Hero = () => {
 
         <div className="flex justify-center md:order-2">
           <img 
-            src="/img/rianoHome.jpg" 
+            src="/img/rianoHome.png" 
             alt="Dr. Jesús Antonio Riaño Rodríguez"
             className="w-[20rem] lg:w-[22rem] md:w-[28rem] object-cover rounded-lg"
           />
