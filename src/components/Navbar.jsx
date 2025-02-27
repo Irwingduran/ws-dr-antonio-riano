@@ -25,8 +25,8 @@ const Navbar = () => {
         <div className="hidden md:flex items-center space-x-8 px-8">
           <ul className="flex space-x-6 px-40">
             <li><a href="/#home" className="text-[#7B169C] hover:opacity-70">Inicio</a></li>
-            <li><a href="/#services" className="text-[#7B169C] hover:opacity-70">Servicios</a></li>
             <li><a href="/#about" className="text-[#7B169C] hover:opacity-70">Conóceme</a></li>
+            <li><a href="/#services" className="text-[#7B169C] hover:opacity-70">Servicios</a></li>
             <li><a href="/#contact" className="text-[#7B169C] hover:opacity-70">Contacto</a></li>
           </ul>
           <a 

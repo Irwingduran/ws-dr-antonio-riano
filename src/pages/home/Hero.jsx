@@ -15,14 +15,15 @@ const Hero = () => {
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-8 items-center">
         <div className="text-left md:order-1">
           <p className="text-[#90B7BA] uppercase tracking-wider text-sm mb-2">
-            CERTIFICADO POR CONACEM
+            CIRUJANO PLÁSTICO - CERTIFICADO POR CONACEM
           </p>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-            CIRUJANO PLÁSTICO
+           Dr. Jesús Antonio Riaño
           </h1>
           
           <p className="text-lg text-gray-600 mb-8">
-            CON AMPLIA EXPERIENCIA Y ALTA CALIDAD HUMANA
+          Pertenecemos al Consejo Mexicano de Cirugía Plástica Estética y Reconstructiva, 
+          y a la Asociación Mexicana de Cirugía Plástica Estética y Reconstructiva. Conforme a la ley.
           </p>
           
           <a 

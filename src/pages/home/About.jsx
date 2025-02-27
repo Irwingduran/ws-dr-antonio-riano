@@ -13,11 +13,17 @@ const About = () => {
             El Dr. Jesús Antonio Riaño Rodriguez...
           </h2>
           <p className="text-gray-600 leading-relaxed mb-6">
-          El Dr. Jesús Antonio Riaño Rodriguez es egresado del Centro Médico Nacional de Occidente IMSS y está certificado por el Consejo Mexicano de Cirugía Plástica, Estética y Reconstructiva. <br />
-          Pertenece al American Society of Plastic Surgeons y ha participado en múltiples cursos de cirugía estética, cirugía facial, estética glútea, cirugía postbariatrica (pérdida masiva de peso), microcirugía y cirugía reconstructiva.
+          Es Cirujano Plástico Certificado con una trayectoria destacada en cirugía estética y reconstructiva. <br />
+          Con una formación sólida en instituciones de renombre como la Benemérita Universidad Autónoma de Puebla, 
+          el IMSS en Tabasco, Puebla y Guadalajara, y mi experiencia en Innovare Hospital de Cirugía Plástica 
+          y el Hospital Infantil de Morelia, me esfuerzo por ofrecer resultados que combinen estética, seguridad y calidad humana. 
           </p>
           <p className="text-gray-600 leading-relaxed mb-6">
-          Es un Cirujano Plástico con una amplia experiencia y gran trayectoria en cirugía plástica estética y reconstructiva en el estado de Puebla. <br />
+          Egresado del Centro Médico Nacional de Occidente (IMSS) y miembro de la American Society of Plastic Surgeons, combina 
+          experiencia, innovación y atención personalizada para ofrecer resultados que marcan la diferencia. 
+          </p>
+          <p className="text-gray-600 leading-relaxed mb-6">
+          Sus especialidades incluyen:
           </p>
           <ul className="mb-6">
             <li className="flex items-center space-x-4 mb-3">
@@ -40,7 +46,7 @@ const About = () => {
                 </svg>
               </div>
               <span className="text-gray-800 font-medium">
-                Experiencia en procedimientos avanzados.
+              Cirugía facial y estética glútea
               </span>
             </li>
             <li className="flex items-center space-x-4 mb-3">
@@ -62,7 +68,29 @@ const About = () => {
                 </svg>
               </div>
               <span className="text-gray-800 font-medium">
-                Enfoque en el bienestar del paciente.
+              Reconstrucción postbariátrica
+              </span>
+            </li>
+            <li className="flex items-center space-x-4 mb-3">
+              <div className="w-10 h-10 bg-[#7B169C] text-white rounded-full flex items-center justify-center">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17.091 8.18182L10.091 15.1818L6.90918 12"
+                    stroke="white"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </div>
+              <span className="text-gray-800 font-medium">
+              Microcirugía y cirugía reconstructiva
               </span>
             </li>
          

@@ -7,21 +7,21 @@ const Service = () => {
           description:
             "Descubre más detalles sobre este servcio...",
           image: "/img/service1.jpeg",
-          link: "/Service",
+          link: "/Service1",
         },
         {
-          title: "Lipoescultura",
+          title: "Cicatrices",
           description:
             "Descubre más detalles sobre este servcio...",
           image: "/img/service2.jpeg",
-           link: "/Service",
+           link: "/Service2",
         },
         {
           title: "Abdominoplastia",
           description:
             "Descubre más detalles sobre este servcio...",
           image: "/img/service3.jpeg",
-           link: "/Service",
+           link: "/Service3",
         },
       ];
     

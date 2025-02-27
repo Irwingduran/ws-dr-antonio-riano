@@ -14,7 +14,7 @@ const Home = () => {
               Servicio Especializado
             </h4>
             <h1 className="text-4xl lg:text-5xl font-extrabold text-gray-800">
-              Liposucción
+           Cicatrices
             </h1>
             <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
               Remodela y redefine tu figura con tecnología avanzada y manos expertas.
@@ -27,7 +27,7 @@ const Home = () => {
             <div className="w-full flex justify-center">
               <div className="w-[300px] md:w-[350px] lg:w-[400px] rounded-lg overflow-hidden shadow-lg border border-gray-200">
                 <iframe
-                  src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F425922185766496%2F&show_text=false&width=267&t=0"
+                  src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F8346889745405365%2F&show_text=false&width=267&t=0"
                   width="100%"
                   height="700"
                   style={{ border: "none", overflow: "hidden" }}
@@ -41,34 +41,30 @@ const Home = () => {
 
             {/* Texto */}
             <div>
-              <h2 className="text-3xl font-bold text-gray-800 mb-4">¿Qué es la Liposucción?</h2>
+            <h3 className="text-2xl font-bold text-gray-800 mt-6 mb-4">Cicatrices</h3>
+
               <p className="text-gray-600 leading-relaxed">
-              La liposucción es una cirugía estética que elimina la grasa acumulada en 
-              zonas específicas del cuerpo. También se le conoce como lipoescultura o 
-              cirugía de modelado corporal. 
+              Una cicatriz en el rostro o en el cuerpo, superficiales o más profundas, producidas por diferentes tipos de lesiones nos genera cierta inseguridad o molestia.
+              </p> <br />
+              <ul className="space-y-3">
+                <li className="flex items-center">✅ Mejora el color de la cicatriz</li>
+                <li className="flex items-center">✅ Evita que la cicatriz siga empeorando</li>
+                <li className="flex items-center">✅ Aporta elasticidad y firmeza en la piel</li>
+                <li className="flex items-center">✅ Mejora la circulación de la zona</li>
+                <li className="flex items-center">✅ Estimula la producción de colageno y elastina</li>
+                <li className="flex items-center">✅ Disminuye el abultamiento</li>
+              </ul>
+              <h3 className="text-2xl font-bold text-gray-800 mt-6 mb-4">
+              ¡Dile adiós a las cicatrices que limitan tu confianza!  
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+              Las cicatrices queloides son cicatrices que crecen de forma excesiva, formando un bulto elevado y grueso que puede ser incómodo e incluso doloroso. Este tipo de cicatrices suelen aparecer tras heridas, cirugías o incluso perforaciones, y se desarrollan cuando el cuerpo produce colágeno en exceso durante el proceso de cicatrización. 
               </p>
-              <ul className="list-disc list-inside mt-4 text-gray-600 space-y-2">
-                <li>¿Qué zonas se pueden tratar?</li>
-              </ul> <br />
               <p className="text-gray-600 leading-relaxed">
-              Abdomen, Caderas, Muslos, Glúteos, Brazos, Cuello, Mejillas, Nalgas, Rodillas, Tobillos.
+              Aunque los queloides no son peligrosos, muchas veces afectan la autoestima o generan molestias. Afortunadamente, existen varios tratamientos disponibles, como inyecciones de corticosteroides, láser o incluso cirugía, para reducir o eliminar las cicatrices queloides.
               </p>
              
-              <h2 className="text-3xl font-bold text-gray-800 mt-6">¿Cómo se realiza? </h2>
-              <ul className="list-disc list-inside mt-4 text-gray-600 space-y-2">
-                <li>Se inyecta una solución líquida que contiene anestesia, un medicamento que contrae los vasos sanguíneos, y una solución salina</li>
-                <li>Se aspira la grasa disuelta con una cánula conectada a una máquina de succión</li>
-              </ul>
-              <p className="text-gray-600 leading-relaxed">
-              Después de una liposucción, la grasa puede acumularse nuevamente en las áreas tratadas si no se mantienen hábitos saludables. La liposucción elimina las células grasas de forma permanente en las áreas tratadas, pero no impide que nuevas células grasas se formen en otras áreas del cuerpo si se produce un aumento de peso.
-              </p>
-              <h3 className="text-2xl font-bold text-gray-800 mt-6 mb-4">4 recomendaciones para potenciar lo resultados de la LIPOSUCCIÓN</h3>
-              <ul className="space-y-3">
-                <li className="flex items-center">✅ Tomar mucha agua</li>
-                <li className="flex items-center">✅ Sigue una dieta equilibrada</li>
-                <li className="flex items-center">✅ Realiza actividad física diaria</li>
-                <li className="flex items-center">✅ Utiliza faja recomendada por tu especialista</li>
-              </ul>
+
             </div>
           </div>
 

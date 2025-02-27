@@ -14,10 +14,10 @@ const Home = () => {
               Servicio Especializado
             </h4>
             <h1 className="text-4xl lg:text-5xl font-extrabold text-gray-800">
-              Liposucción
+            Abdominoplastia
             </h1>
             <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
-              Remodela y redefine tu figura con tecnología avanzada y manos expertas.
+             Mejora la apariencia de tu abdomen eliminado exceso de piel y grasa.
             </p>
           </header>
 
@@ -27,7 +27,7 @@ const Home = () => {
             <div className="w-full flex justify-center">
               <div className="w-[300px] md:w-[350px] lg:w-[400px] rounded-lg overflow-hidden shadow-lg border border-gray-200">
                 <iframe
-                  src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F425922185766496%2F&show_text=false&width=267&t=0"
+                  src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F900836058109214%2F&show_text=false&width=267&t=0"
                   width="100%"
                   height="700"
                   style={{ border: "none", overflow: "hidden" }}
@@ -41,34 +41,20 @@ const Home = () => {
 
             {/* Texto */}
             <div>
-              <h2 className="text-3xl font-bold text-gray-800 mb-4">¿Qué es la Liposucción?</h2>
+              <h2 className="text-3xl font-bold text-gray-800 mb-4">¿Qué es la Abdominoplastia?</h2>
               <p className="text-gray-600 leading-relaxed">
-              La liposucción es una cirugía estética que elimina la grasa acumulada en 
-              zonas específicas del cuerpo. También se le conoce como lipoescultura o 
-              cirugía de modelado corporal. 
-              </p>
-              <ul className="list-disc list-inside mt-4 text-gray-600 space-y-2">
-                <li>¿Qué zonas se pueden tratar?</li>
-              </ul> <br />
-              <p className="text-gray-600 leading-relaxed">
-              Abdomen, Caderas, Muslos, Glúteos, Brazos, Cuello, Mejillas, Nalgas, Rodillas, Tobillos.
+              La abdominoplastia, también conocida como cirugía de abdominoplastia, es un procedimiento quirúrgico diseñado para mejorar la apariencia del abdomen al eliminar el exceso de piel y grasa, y tensar los músculos abdominales.
               </p>
              
-              <h2 className="text-3xl font-bold text-gray-800 mt-6">¿Cómo se realiza? </h2>
-              <ul className="list-disc list-inside mt-4 text-gray-600 space-y-2">
-                <li>Se inyecta una solución líquida que contiene anestesia, un medicamento que contrae los vasos sanguíneos, y una solución salina</li>
-                <li>Se aspira la grasa disuelta con una cánula conectada a una máquina de succión</li>
-              </ul>
+              <h2 className="text-3xl font-bold text-gray-800 mt-6">¿Te preocupa la cicatriz después de hacerte una abdominoplastia?</h2>
               <p className="text-gray-600 leading-relaxed">
-              Después de una liposucción, la grasa puede acumularse nuevamente en las áreas tratadas si no se mantienen hábitos saludables. La liposucción elimina las células grasas de forma permanente en las áreas tratadas, pero no impide que nuevas células grasas se formen en otras áreas del cuerpo si se produce un aumento de peso.
+              Es importante tener en cuenta que, aunque existen técnicas quirúrgicas y cuidados postoperatorios para minimizar las cicatrices, cada persona cicatriza de manera diferente.
               </p>
-              <h3 className="text-2xl font-bold text-gray-800 mt-6 mb-4">4 recomendaciones para potenciar lo resultados de la LIPOSUCCIÓN</h3>
-              <ul className="space-y-3">
-                <li className="flex items-center">✅ Tomar mucha agua</li>
-                <li className="flex items-center">✅ Sigue una dieta equilibrada</li>
-                <li className="flex items-center">✅ Realiza actividad física diaria</li>
-                <li className="flex items-center">✅ Utiliza faja recomendada por tu especialista</li>
-              </ul>
+             <p className="text-gray-600 leading-relaxed">Algunos factores que pueden influir en la apariencia de las cicatrices incluyen la genética individual, la calidad de la piel, la técnica quirúrgica utilizada y los cuidados postoperatorios y de recuperación en el día a día.
+             Algunos pacientes pueden desarrollar cicatrices hipertróficas o queloides, que son cicatrices más elevadas e irregulares.
+             </p>
+             <p className="text-gray-600 leading-relaxed">Estas cicatrices son menos comunes, pero es necesario tenerlas en cuenta. 
+             </p>
             </div>
           </div>
 

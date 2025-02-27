@@ -10,6 +10,7 @@ import Contact from './Contact'
 import Footer from '../../components/Footer'
 import Banner from './Banner'
 import Reviews from './Reviews'
+import Mockup from './Mockup'
 function App() {
   
   return (
@@ -20,11 +21,12 @@ function App() {
     <div>
       <Hero/>
       <Stats/>
-      <Service/>
       <About/>
+      <Service/>
       <Partners/>
       <Banner/>
       <VideoSection/>
+      <Mockup/>
       <LocationMap/>
      <Reviews/>
       <Contact/>
