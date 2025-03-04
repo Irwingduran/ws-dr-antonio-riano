@@ -27,6 +27,7 @@ const Navbar = () => {
             <li><a href="/#home" className="text-[#7B169C] hover:opacity-70">Inicio</a></li>
             <li><a href="/#about" className="text-[#7B169C] hover:opacity-70">Conóceme</a></li>
             <li><a href="/#services" className="text-[#7B169C] hover:opacity-70">Servicios</a></li>
+            <li><a href="/#resenas" className="text-[#7B169C] hover:opacity-70">Reseñas</a></li>
             <li><a href="/#contact" className="text-[#7B169C] hover:opacity-70">Contacto</a></li>
           </ul>
           <a 
@@ -60,6 +61,7 @@ const Navbar = () => {
               <li><a href="/" onClick={toggleMenu} className="text-white text-2xl">Inicio</a></li>
               <li><a href="/#services" onClick={toggleMenu} className="text-white text-2xl">Servicios</a></li>
               <li><a href="/#about" onClick={toggleMenu} className="text-white text-2xl">Conóceme</a></li>
+              <li><a href="/#resenas" onClick={toggleMenu} className="text-white text-2xl">Reseñas</a></li>
             </ul>
             <div className="flex justify-center mt-12">
               <a 

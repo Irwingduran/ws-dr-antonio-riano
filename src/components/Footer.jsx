@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
 
         <div className="text-center mt-8 text-white text-sm">
-          © {new Date().getFullYear()} <a href="https://delta-digital.com.mx/" className="hover:text-yellow-200 ">Delta Agencia.</a> Todos los derechos reservados.
+          © {new Date().getFullYear()} Delta <a href="https://marketingmedicos.com.mx/" className="hover:text-yellow-200 ">by Imagen Médica</a> Todos los derechos reservados.
         </div>
       </div>
     </footer>

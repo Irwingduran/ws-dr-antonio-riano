@@ -39,7 +39,7 @@ const App = () => {
       imageUrl="/img/mockup.png"
       title="Descubre más sobre mí desde Findoctor"
       description="Consulta mi perfil digital en Findoctor para conocer detalles sobre mis servicios, ubicación, horarios y formas de contacto. Programa tu cita en línea de manera rápida y segura."
-      buttonText="Visitar mi perfil"
+      buttonText="Visitar mi tarjeta digital"
     />
   );
 };

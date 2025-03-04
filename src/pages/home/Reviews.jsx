@@ -1,26 +1,24 @@
 import React, { useState } from "react";
+import { FaStar, FaUserCircle } from "react-icons/fa";
 
 const reviews = [
   {
     name: "María López",
     review:
       "El trato fue excelente, el equipo médico fue muy profesional y los resultados superaron mis expectativas.",
-    image:
-      "/icon/usuario.png",
+    image: "",
   },
   {
     name: "Rocio Pérez",
     review:
       "Recibí una atención personalizada y un seguimiento impecable. Recomiendo ampliamente sus servicios.",
-    image:
-      "/icon/usuario.png",
+    image: "",
   },
   {
     name: "Ana Castillo",
     review:
       "Estoy muy contenta con los resultados, todo el equipo me hizo sentir segura y confiada durante el proceso.",
-    image:
-      "/icon/usuario.png",
+    image: "",
   },
 ];
 
@@ -40,7 +38,7 @@ const Reviews = () => {
   };
 
   return (
-    <div className="relative py-16 bg-white">
+    <div className="relative py-16 bg-white" id="resenas">
       <div className="container mx-auto px-4">
         <header className="text-center mb-12">
           <h4 className="text-sm uppercase text-[#90B7BA] mb-2">Reseñas</h4>
@@ -52,11 +50,20 @@ const Reviews = () => {
         <div className="relative bg-white shadow-xl rounded-lg p-8 max-w-3xl mx-auto">
           {/* Reseña actual */}
           <div className="text-center">
-            <img
-              src={reviews[currentIndex].image}
-              alt={reviews[currentIndex].name}
-              className="w-24 h-24 rounded-full mx-auto mb-4 shadow-lg"
-            />
+            {reviews[currentIndex].image ? (
+              <img
+                src={reviews[currentIndex].image}
+                alt={reviews[currentIndex].name}
+                className="w-24 h-24 rounded-full mx-auto mb-4 shadow-lg"
+              />
+            ) : (
+              <FaUserCircle className="w-24 h-24 mx-auto mb-4 text-gray-400" />
+            )}
+            <div className="flex justify-center mb-4">
+              {[...Array(5)].map((_, i) => (
+                <FaStar key={i} className="text-yellow-400" />
+              ))}
+            </div>
             <p className="text-lg italic text-gray-700 mb-4">
               "{reviews[currentIndex].review}"
             </p>
@@ -92,20 +99,22 @@ const Reviews = () => {
           ))}
         </div>
 
-        {/* Sección para dejar comentario */}
-        <div className="text-center mt-12">
-          <h3 className="text-2xl font-bold text-[#7B169C] mb-2">
-            ¡Tu opinión es importante!
+        {/* Banner para dejar comentario en Google */}
+        <div className="mt-16 bg-gradient-to-r from-[#7B169C] to-[#4C0D6A] rounded-lg p-8 text-center text-white">
+          <h3 className="text-3xl font-bold mb-4">
+            ¡Tu opinión nos ayuda a mejorar!
           </h3>
-          <p className="text-gray-700 mb-4">
-            Si has visitado al doctor, comparte tu experiencia en el perfil de Google del Dr. Antonio Riaño.
+          <p className="text-lg mb-6">
+            Si has visitado al Dr. Jesús Antonio Riaño Rodriguez, comparte tu experiencia en Google y ayúdanos a seguir brindando un servicio de calidad.
           </p>
-          <a href="https://maps.app.goo.gl/dmcdhycvxnqSTxPk7">
-          <button
-            className="bg-[#7B169C] text-white px-6 py-3 rounded-lg font-semibold shadow-lg hover:bg-purple-600 transition"
+          <a
+            href="https://www.google.com/search?q=dr.+Antonio+ria%C3%B1o+cirujano+plastico&sca_esv=da71dabda52a3bb7&sxsrf=AHTn8zotD5wykhe6SKh2NuOx0hExWdntAA%3A1740598128062&ei=cGu_Z47FA6iuur8PseLjuQU&ved=0ahUKEwiOvfqoieKLAxUol-4BHTHxOFcQ4dUDCBA&uact=5&oq=dr.+Antonio+ria%C3%B1o+cirujano+plastico&gs_lp=Egxnd3Mtd2l6LXNlcnAiJGRyLiBBbnRvbmlvIHJpYcOxbyBjaXJ1amFubyBwbGFzdGljbzIFECEYoAEyBRAhGKABSMEdUOADWJ0ccAF4AJABAJgBkgGgAYEPqgEDOS45uAEDyAEA-AEBmAIToALdD8ICBxAAGLADGB7CAgkQABiwAxgIGB7CAgsQABiABBiwAxiiBMICCBAAGLADGO8FwgIGEAAYFhgewgIFEAAY7wXCAggQABiABBiiBJgDAIgGAZAGCJIHBDMuMTagB8k9&sclient=gws-wiz-serp&lqi=CiRkci4gQW50b25pbyByaWHDsW8gY2lydWphbm8gcGxhc3RpY29IvMyfr4CwgIAIWjkQABABEAIQAxAEGAAYARgCGAMYBCIjZHIgYW50b25pbyByaWHDsW8gY2lydWphbm8gcGxhc3RpY2-SAQ9wbGFzdGljX3N1cmdlb26aASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUjZNbDloTlRsblJSQUKqAU0QATIgEAEiHNZwp6-6ywVxc4rmbZhW_XDr8MCk1icqwZZvlSYyJxACIiNkciBhbnRvbmlvIHJpYcOxbyBjaXJ1amFubyBwbGFzdGljb_oBBAhZED4#lkt=LocalPoiReviews&rlimm=4451118739558587507"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Dejar comentario
-          </button>
+            <button className="bg-white text-[#7B169C] px-8 py-3 rounded-lg font-semibold shadow-lg hover:bg-gray-100 transition">
+              Dejar un comentario en Google
+            </button>
           </a>
         </div>
       </div>

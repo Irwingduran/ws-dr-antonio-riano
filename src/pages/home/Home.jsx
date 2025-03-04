@@ -22,8 +22,8 @@ function App() {
       <Hero/>
       <Stats/>
       <About/>
-      <Service/>
       <Partners/>
+      <Service/>
       <Banner/>
       <VideoSection/>
       <Mockup/>
