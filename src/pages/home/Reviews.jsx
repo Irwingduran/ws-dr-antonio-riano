@@ -108,7 +108,7 @@ const Reviews = () => {
             Si has visitado al Dr. Jesús Antonio Riaño Rodriguez, comparte tu experiencia en Google y ayúdanos a seguir brindando un servicio de calidad.
           </p>
           <a
-            href="https://www.google.com/search?q=dr.+Antonio+ria%C3%B1o+cirujano+plastico&sca_esv=da71dabda52a3bb7&sxsrf=AHTn8zotD5wykhe6SKh2NuOx0hExWdntAA%3A1740598128062&ei=cGu_Z47FA6iuur8PseLjuQU&ved=0ahUKEwiOvfqoieKLAxUol-4BHTHxOFcQ4dUDCBA&uact=5&oq=dr.+Antonio+ria%C3%B1o+cirujano+plastico&gs_lp=Egxnd3Mtd2l6LXNlcnAiJGRyLiBBbnRvbmlvIHJpYcOxbyBjaXJ1amFubyBwbGFzdGljbzIFECEYoAEyBRAhGKABSMEdUOADWJ0ccAF4AJABAJgBkgGgAYEPqgEDOS45uAEDyAEA-AEBmAIToALdD8ICBxAAGLADGB7CAgkQABiwAxgIGB7CAgsQABiABBiwAxiiBMICCBAAGLADGO8FwgIGEAAYFhgewgIFEAAY7wXCAggQABiABBiiBJgDAIgGAZAGCJIHBDMuMTagB8k9&sclient=gws-wiz-serp&lqi=CiRkci4gQW50b25pbyByaWHDsW8gY2lydWphbm8gcGxhc3RpY29IvMyfr4CwgIAIWjkQABABEAIQAxAEGAAYARgCGAMYBCIjZHIgYW50b25pbyByaWHDsW8gY2lydWphbm8gcGxhc3RpY2-SAQ9wbGFzdGljX3N1cmdlb26aASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUjZNbDloTlRsblJSQUKqAU0QATIgEAEiHNZwp6-6ywVxc4rmbZhW_XDr8MCk1icqwZZvlSYyJxACIiNkciBhbnRvbmlvIHJpYcOxbyBjaXJ1amFubyBwbGFzdGljb_oBBAhZED4#lkt=LocalPoiReviews&rlimm=4451118739558587507"
+            href="https://www.google.com.mx/maps/place/Dr.+Jes%C3%BAs+Antonio+Ria%C3%B1o+Rodr%C3%ADguez,+Cirujano+pl%C3%A1stico/@19.0201783,-98.2697152,17z/data=!4m8!3m7!1s0x85cfc70d514b175f:0x3dc58ce91c795c73!8m2!3d19.0201784!4d-98.2648443!9m1!1b1!16s%2Fg%2F11j02zhtkx?entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D"
             target="_blank"
             rel="noopener noreferrer"
           >
