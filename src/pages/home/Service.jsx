@@ -36,7 +36,7 @@ const Service = () => {
     "Cirugía de mama",
     "Cirugía facial",
     "Brazos y muslos",
-    "Botox",
+    "Tratamientos Faciales",
     "Rellenos faciales",
   ];
 

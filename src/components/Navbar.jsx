@@ -31,7 +31,7 @@ const Navbar = () => {
             <li><a href="/#contact" className="text-[#7B169C] hover:opacity-70">Contacto</a></li>
           </ul>
           <a 
-            href="https://api.whatsapp.com/send?phone=5213319450358&text=Hola,%20quisiera%20hacer%20una%20cita%20con%20el%20Dr.%20Jesus%20Antonio%20Ria%c3%b1o%20Rodriguez" 
+            href="https://api.whatsapp.com/send/?phone=5212222179680&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0" 
             className="bg-[#7B169C] text-white px-6 py-2 rounded-full my-6 text-sm uppercase hover:bg-purple-500" target="_blank"
           >
             Agendar Cita
@@ -65,7 +65,7 @@ const Navbar = () => {
             </ul>
             <div className="flex justify-center mt-12">
               <a 
-                href="https://api.whatsapp.com/send?phone=5213319450358&text=Hola,%20quisiera%20hacer%20una%20cita%20con%20el%20Dr.%20Jesus%20Antonio%20Ria%c3%b1o%20Rodriguez" 
+                href="https://api.whatsapp.com/send/?phone=5212222179680&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0" 
                 target="_blank"
                 onClick={toggleMenu}
                 className="bg-white text-[#7B169C] px-6 py-3  rounded-full text-lg uppercase"

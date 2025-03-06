@@ -37,7 +37,7 @@ const App = () => {
   return (
     <Mockup
       imageUrl="/img/mockup.png"
-      title="Descubre más sobre mí desde Findoctor"
+      title="Consulta mi trajeta digital en Findoctor"
       description="Consulta mi perfil digital en Findoctor para conocer detalles sobre mis servicios, ubicación, horarios y formas de contacto. Programa tu cita en línea de manera rápida y segura."
       buttonText="Visitar mi tarjeta digital"
     />

@@ -14,10 +14,10 @@ const Home = () => {
               Servicio Especializado
             </h4>
             <h1 className="text-4xl lg:text-5xl font-extrabold text-gray-800">
-            Abdominoplastia
+              Mommy Makeover
             </h1>
             <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
-             Mejora la apariencia de tu abdomen eliminado exceso de piel y grasa.
+              Recupera tu figura y confianza con un procedimiento integral que combina varias cirugías estéticas diseñadas para restaurar la forma y firmeza de tu cuerpo después del embarazo.
             </p>
           </header>
 
@@ -27,7 +27,7 @@ const Home = () => {
             <div className="w-full flex justify-center">
               <div className="w-[300px] md:w-[350px] lg:w-[400px] rounded-lg overflow-hidden shadow-lg border border-gray-200">
                 <iframe
-                  src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F900836058109214%2F&show_text=false&width=267&t=0"
+                  src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F517346517285507%2F&show_text=false&width=267&t=0"
                   width="100%"
                   height="700"
                   style={{ border: "none", overflow: "hidden" }}
@@ -41,29 +41,25 @@ const Home = () => {
 
             {/* Texto */}
             <div>
-              <h2 className="text-3xl font-bold text-gray-800 mb-4">¿Qué es la Abdominoplastia?</h2>
+              <h2 className="text-3xl font-bold text-gray-800 mb-4">¿Qué es el Mommy Makeover?</h2>
               <p className="text-gray-600 leading-relaxed">
-              La abdominoplastia, también conocida como cirugía de abdominoplastia, es un procedimiento quirúrgico diseñado para mejorar la apariencia del abdomen al eliminar el exceso de piel y grasa, y tensar los músculos abdominales.
+                El Mommy Makeover es un conjunto de procedimientos quirúrgicos diseñados para restaurar la apariencia del cuerpo después del embarazo. Generalmente, incluye una combinación de abdominoplastia, liposucción y cirugía de senos (aumento, reducción o levantamiento).
               </p>
              
-              <h2 className="text-3xl font-bold text-gray-800 mt-6">¿Te preocupa la cicatriz después de hacerte una abdominoplastia?</h2>
+              <h2 className="text-3xl font-bold text-gray-800 mt-6">¿Cuáles son los beneficios del Mommy Makeover?</h2>
               <p className="text-gray-600 leading-relaxed">
-              Es importante tener en cuenta que, aunque existen técnicas quirúrgicas y cuidados postoperatorios para minimizar las cicatrices, cada persona cicatriza de manera diferente.
+                Este procedimiento ayuda a eliminar el exceso de piel y grasa, a restaurar la firmeza del abdomen y a mejorar la apariencia de los senos. Está diseñado para brindar una transformación integral, ayudando a recuperar la confianza y bienestar.
               </p>
-             <p className="text-gray-600 leading-relaxed">Algunos factores que pueden influir en la apariencia de las cicatrices incluyen la genética individual, la calidad de la piel, la técnica quirúrgica utilizada y los cuidados postoperatorios y de recuperación en el día a día.
-             Algunos pacientes pueden desarrollar cicatrices hipertróficas o queloides, que son cicatrices más elevadas e irregulares.
-             </p>
-             <p className="text-gray-600 leading-relaxed">Estas cicatrices son menos comunes, pero es necesario tenerlas en cuenta. 
+             <p className="text-gray-600 leading-relaxed">El Mommy Makeover se personaliza según las necesidades de cada paciente, permitiendo obtener resultados naturales y armoniosos.
              </p>
             </div>
           </div>
 
-
           {/* Llamada a la acción */}
           <div className="text-center py-10">
-            <h3 className="text-2xl font-bold text-gray-800 mb-4">¡Agenda tu consulta hoy!</h3>
+            <h3 className="text-2xl font-bold text-gray-800 mb-4">¡Recupera tu figura hoy!</h3>
             <p className="text-gray-600 mb-6">
-              Da el primer paso hacia el cambio que siempre has deseado.
+              Da el primer paso hacia el cambio que deseas con una consulta personalizada.
             </p>
             <a
               href="https://api.whatsapp.com/send/?phone=5212222179680&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0"
@@ -82,4 +78,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Home

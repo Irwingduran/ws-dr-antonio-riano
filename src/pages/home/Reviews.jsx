@@ -112,7 +112,7 @@ const Reviews = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="bg-white text-[#7B169C] px-8 py-3 rounded-lg font-semibold shadow-lg hover:bg-gray-100 transition">
+            <button className="bg-white text-[#7B169C] px-8 py-3 rounded-lg font-semibold shadow-lg hover:bg-purple-200 transition">
               Dejar un comentario en Google
             </button>
           </a>
