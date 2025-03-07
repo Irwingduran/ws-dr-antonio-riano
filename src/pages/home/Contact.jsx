@@ -1,4 +1,5 @@
 import React from "react";
+import Widget from "./Widget"
 
 const Contact = () => {
   return (
@@ -17,70 +18,8 @@ const Contact = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Formulario de contacto */}
-          <div className="bg-white rounded-lg shadow-lg p-8">
-            <form action="#" method="POST" className="space-y-6">
-              <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700">
-                  Nombre completo
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  required
-                  className="mt-2 block w-full p-3 border rounded-md shadow-sm focus:ring-[#7B169C] focus:border-[#7B169C] sm:text-sm"
-                  placeholder="Tu nombre"
-                />
-              </div>
-              <div>
-                <label htmlFor="tel" className="block text-sm font-medium text-gray-700">
-                  Teléfono
-                </label>
-                <input
-                  type="tel"
-                  id="tel"
-                  name="tel"
-                  required
-                  className="mt-2 block w-full p-3 border rounded-md shadow-sm focus:ring-[#7B169C] focus:border-[#7B169C] sm:text-sm"
-                  placeholder="123456789"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-                  Correo electrónico
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  required
-                  className="mt-2 block w-full p-3 border rounded-md shadow-sm focus:ring-[#7B169C] focus:border-[#7B169C] sm:text-sm"
-                  placeholder="tucorreo@example.com"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700">
-                  Mensaje
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows="4"
-                  required
-                  className="mt-2 block w-full p-3 border rounded-md shadow-sm focus:ring-[#7B169C] focus:border-[#7B169C] sm:text-sm"
-                  placeholder="Escribe tu mensaje aquí..."
-                ></textarea>
-              </div>
-
-              <button
-                type="submit"
-                className="w-full py-3 px-6 bg-[#7B169C] text-white font-medium rounded-lg shadow hover:bg-purple-500 focus:ring-4 focus:ring-indigo-300"
-              >
-                Enviar mensaje
-              </button>
-            </form>
+          <div className="bg-white rounded-lg p-8">
+            <Widget/>
           </div>
 
           {/* Información de contacto */}
