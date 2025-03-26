@@ -13,7 +13,7 @@ const About = () => {
             El Dr. Jesús Antonio Riaño Rodríguez
           </h2>
           <p className="text-gray-600 leading-relaxed mb-6">
-            Es un Cirujano Plástico Certificado con una destacada trayectoria en cirugía estética y reconstructiva. 
+            Cirujano Plástico Certificado con una destacada trayectoria en cirugía estética y reconstructiva. 
             Su formación académica incluye estudios en instituciones de prestigio como la Benemérita Universidad Autónoma de Puebla, 
             así como experiencia en el IMSS en Tabasco, Puebla y Guadalajara. Además, ha desarrollado su práctica en Innovare Hospital de Cirugía Plástica 
             y el Hospital Infantil de Morelia, brindando resultados que combinan estética, seguridad y calidad humana.
