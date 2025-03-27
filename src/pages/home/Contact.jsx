@@ -93,7 +93,7 @@ const Contact = () => {
         </svg>
               </a>
               <a
-                href="https://api.whatsapp.com/send/?phone=5212222179680&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0"
+                href="https://api.whatsapp.com/send/?phone=5212222179680&text=Hola+Dr.+encontr%C3%A9+su+sitio+web+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0"
                 className="text-indigo-600 hover:text-indigo-800 transition"
                 aria-label="WhatsApp"
               >
