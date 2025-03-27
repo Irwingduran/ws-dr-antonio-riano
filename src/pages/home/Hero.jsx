@@ -27,7 +27,7 @@ const Hero = () => {
           </p>
           
           <a 
-            href="https://api.whatsapp.com/send/?phone=5212222179680&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0" 
+            href="https://api.whatsapp.com/send/?phone=5212222179680&text=Hola+Dr.+encontr%C3%A9+su+sitio+web+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0" 
             className="flex items-center w-fit gap-3 bg-[#7B169C] text-white px-6 py-3 rounded-full uppercase hover:bg-purple-500 transition-colors" target="_blank"
           >
             <MessageCircle size={40}/>
