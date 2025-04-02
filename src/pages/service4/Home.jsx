@@ -137,7 +137,7 @@ const Home = () => {
           {/* Carrusel de Imágenes */}
           <div className="py-16">
             <div className="text-center mb-8">
-              <h2 className="text-3xl font-bold text-gray-800">Resultados de Aumento Mamario</h2>
+              <h2 className="text-3xl font-bold text-gray-800">Aumento Mamario</h2>
             </div>
             <div className="relative w-full max-w-2xl mx-auto">
               <div className="overflow-hidden rounded-lg shadow-lg">

@@ -133,8 +133,8 @@ const Home = () => {
              
               <h2 className="text-3xl font-bold text-gray-800 mt-6">¿Cómo se realiza? </h2>
               <ul className="list-disc list-inside mt-4 text-gray-600 space-y-2">
-                <li>Se inyecta una solución líquida que contiene anestesia, un medicamento que contrae los vasos sanguíneos, y una solución salina</li>
-                <li>Se aspira la grasa disuelta con una cánula conectada a una máquina de succión</li>
+                <li>Se inyecta una solución líquida que contiene anestesia, un medicamento que contrae los vasos sanguíneos, y una solución salina.</li>
+                <li>Se aspira la grasa disuelta con una cánula conectada a una máquina de succión.</li>
               </ul>
               <p className="text-gray-600 leading-relaxed">
                 Después de una liposucción, la grasa puede acumularse nuevamente en las áreas tratadas si no se mantienen hábitos saludables. La liposucción elimina las células grasas de forma permanente en las áreas tratadas, pero no impide que nuevas células grasas se formen en otras áreas del cuerpo si se produce un aumento de peso.
@@ -152,7 +152,7 @@ const Home = () => {
    {/* Carrusel de Imágenes */}
           <div className="py-16">
             <div className="text-center mb-8">
-              <h2 className="text-3xl font-bold text-gray-800">Cicatrices</h2>
+              <h2 className="text-3xl font-bold text-gray-800">Liposucción</h2>
             </div>
             <div className="relative w-full max-w-2xl mx-auto">
               <div className="overflow-hidden rounded-lg shadow-lg">
